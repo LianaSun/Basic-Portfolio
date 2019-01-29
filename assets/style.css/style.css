@@ -1,6 +1,8 @@
 body {
-	background-image: url("../images/background.png");
-	background-repeat: repeat;
+    background-image: url("full-bloom.png");
+    background-repeat: repeat;
+    background-position: top right;
+    background-attachment: fixed;
 	font-family: Arial;
 	font-size: 18px;
 	color: #777;
@@ -15,7 +17,9 @@ body {
 /* Sticky Footer */
 
 #container {
-	min-height: calc(100vh - 264px);
+    min-height: calc(100vh - 264px);
+    align-content: center;
+
 }
 
 /* General Styling */
@@ -110,13 +114,18 @@ footer {
 }
 
 #content {
-	float: left;
-	width: 650px;
+	float: right;
+	width: 960px;
 }
 
 .snake {
 	float: left;
 	margin-right: 30px;
+}
+
+.bio {
+    float: right;
+    margin-right: 30px;
 }
 
 /* Contact */
